@@ -1,0 +1,24 @@
+{
+    "name": "renooj/laravel",
+    "type": "library",
+    "description": "A PHP wrapper for Renooj's REST API",
+    "keywords": ["renooj", "sms", "api"],
+    "homepage": "https://github.com/renooj/laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renooj API Team",
+            "email": "support@renooj.ir"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "renooj/laravel": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Renooj\\": "src/"
+        }
+    },
+    "minimum-stability" : "stable"
+}
